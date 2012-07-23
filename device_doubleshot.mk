@@ -110,7 +110,7 @@ PRODUCT_COPY_FILES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
+    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 # Custom media config for HTC camera
 PRODUCT_COPY_FILES += \
@@ -133,4 +133,4 @@ $(call inherit-product, device/htc/doubleshot/media_a1026.mk)
 ## htc audio settings
 $(call inherit-product, device/htc/doubleshot/media_htcaudio.mk)
 
-$(call inherit-product, frameworks/base/build/phone-xhdpi-1024-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
